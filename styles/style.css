@@ -25,6 +25,7 @@ ul, li {
 
 a {
   text-decoration: none;
+  display: inline-block;
 }
 
 button {
@@ -88,4 +89,34 @@ nav {
   font-size: 28px;
   line-height: 1.5;
   font-weight: 800;
+}
+
+/* Banner Styles */
+.banner {
+  background-image: url(../assets/Hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.banner-content {
+  padding: 26px 97px 45px;
+  text-align: center;
+}
+
+.banner-content img {
+  margin-bottom: 32px;
+}
+
+.banner-title {
+  font-size: 48px;
+  line-height: 1.5;
+  font-weight: 800;
+}
+
+.banner-description {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 24px 0px 32px;
 }
