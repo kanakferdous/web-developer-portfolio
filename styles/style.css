@@ -1,0 +1,45 @@
+/* Deafult CSS */
+
+body {
+  overflow-x: hidden;
+}
+
+body, html {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+}
+
+p {
+  margin: 0px;
+}
+
+ul, li {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Shared Styles */
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.text-dark {
+  color: #0D1321;
+}
+
+.text-white {
+  color: #ffffff;
+}
