@@ -258,3 +258,46 @@ nav {
   text-decoration: underline;
   margin-top: 24px;
 }
+
+/* Next Target Styles */
+.next-target {
+  margin-top: 111px;
+}
+
+.next-target-boxes {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.next-target-box {
+  border: 1px solid rgba(13, 19, 33, 15%);
+  border-radius: 16px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 24px;
+}
+
+.next-target-box .box-title {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 800;
+}
+
+.next-target-box .box-content {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-top: 8px;
+}
+
+.next-target-box .box-btn {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 700;
+  margin-top: 24px;
+  text-decoration: underline;
+}
