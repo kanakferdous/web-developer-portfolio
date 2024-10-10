@@ -301,3 +301,51 @@ nav {
   margin-top: 24px;
   text-decoration: underline;
 }
+
+/* I Need Support Styles */
+.need-support {
+  margin: 48px 0px 80px;
+}
+
+.need-support-contents {
+  padding: 64px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(../assets/handshake.jpg) lightgray 50% / cover no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+}
+
+.need-support-contents form {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 16px;
+}
+
+.need-support-contents form input[type="email"] {
+  width: 548px;
+  padding: 19px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgba(13, 19, 33, 40%);
+  font-weight: 400;
+  border: 0px;
+}
+
+.need-support-contents form input[type="email"]:focus {
+  outline: none;
+}
+
+.need-support-contents form input[type="submit"] {
+  width: 120px;
+  padding: 20px 17px;
+  text-align: center;
+  color: #0D1321;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  background-color: #ffffff;
+  border: 0px;
+}
