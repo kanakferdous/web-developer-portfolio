@@ -46,6 +46,10 @@ button {
   color: #ffffff;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .btn-primary {
   padding: 17px 24px;
   background-color: transparent;
@@ -68,6 +72,34 @@ button {
   color: #ffffff ;
 }
 
+.section-heading {
+  margin: auto 47px;
+}
+
+.section-title {
+  font-size: 32px;
+  line-height: 1.5;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.section-content {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.bg-red {
+  background-color: rgba(255, 76, 30, 5%);
+}
+
+.bg-blue {
+  background-color: rgba(0, 76, 232, 5%);
+}
+
+.bg-yellow {
+  background-color: rgba(255, 223, 0, 5%);
+}
+
 .azeret-mono-regular {
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
@@ -75,14 +107,12 @@ button {
 }
 
 /* Header Styles */
-header {
-  padding: 50px 0px;
-}
 
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 50px 0px;
 }
 
 .logo {
@@ -119,4 +149,112 @@ nav {
   line-height: 1.5;
   font-weight: 400;
   margin: 24px 0px 32px;
+}
+
+/* Why Web Development Styles */
+.why-web-dev-content {
+  padding: 80px 97px;
+  background-color: rgba(13, 19, 33, 2%);
+  margin-top: 74px;
+}
+
+.why-web-dev-boxes {
+  margin-top: 48px;
+}
+
+.why-web-dev-box {
+  padding: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.why-web-dev-box.right-align {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  column-gap: 32px;
+}
+
+.why-web-dev-box .box-contents {
+  max-width: 477px;
+}
+
+.why-web-dev-box .box-title {
+  font-size: 24px;
+  line-height: 1.5;
+  color: rgba(13, 19, 33, 70%);
+  font-weight: 700;
+}
+
+.why-web-dev-box .box-content {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 16px 0px 32px;
+}
+
+.why-web-dev-box .box-btn {
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 12px 20px;
+  color: #0D1321;
+  background-color: transparent;
+  border: 1px solid #0D1321;
+  display: inline-block;
+}
+
+/* My Inspiration Styles */
+.my-inspire {
+  margin-top: 90px;
+}
+
+.my-inspire-video {
+  margin-top: 48px;
+  border: 1px solid rgba(13, 19, 33, 20%);
+  padding: 32px;
+  border-radius: 16px;
+}
+
+.my-inspire-video iframe {
+  border-radius: 16px;
+}
+
+/* Current Target Style */
+.current-target {
+  margin-top: 151px;
+}
+
+.current-target-boxes {
+  margin-top: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 24px;
+}
+
+.current-target-box {
+  width: calc(33.33% - 24px);
+  padding: 40px;
+  text-align: left;
+  border-radius: 16px;
+}
+
+.current-target-box .box-title {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 800;
+}
+
+.current-target-box .box-content {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-top: 8px;
+}
+
+.current-target-box .box-btn {
+  font-size: 16;
+  line-height: 1.5;
+  font-weight: 600;
+  text-decoration: underline;
+  margin-top: 24px;
 }
